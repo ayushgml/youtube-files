@@ -1,0 +1,20 @@
+Easy Questions
+Question 1: Directory Explorer
+You have a directory named Projects with several subdirectories for different projects (e.g., ProjectA, ProjectB, ...). Inside each project directory, there are docs, src, and tests directories. Write a command or a series of commands to list all the src directories within Projects without displaying any other directories or files.
+
+Question 2: File Backup
+In your current directory, there's a file named config.txt. Write a command to create a backup of this file in the same directory named config_backup.txt.
+
+Medium Questions
+Question 3: Directory Reorganization
+You are in a directory called OldProjects. Inside, there are multiple project directories (Project1, Project2, etc.), each containing various files and directories. Your task is to move all directories that start with Project into a new directory called ArchivedProjects within OldProjects. Ensure ArchivedProjects is created if it doesn't exist and verify the move.
+
+Question 4: Cleaning Up
+In the current directory, there are files with different extensions and a few subdirectories. Your task is to remove all .tmp files in the current directory and all its subdirectories safely and efficiently. Note: This task should be done with caution in a real environment to avoid accidental data loss.
+
+Hard Questions
+Question 5: Smart Linking
+You are working in a directory Work which contains two subdirectories: Current and Archive. Each subdirectory has multiple project directories (Project1, Project2, ...). Inside each project directory in Archive, there is a Report.pdf file. Write a command or a series of commands to create a symbolic link in the corresponding project directory in Current for each Report.pdf in Archive, named Old_Report.pdf. Assume the project directories in Current and Archive have the same names.
+
+Question 6: Recursive Cleanup with Exceptions
+You have a directory named DataDump containing various files and subdirectories. Some of these files are .log files that you need to keep. Write a command or a series of commands to remove all files in DataDump and its subdirectories except for .log files. Additionally, empty subdirectories should be removed, but any subdirectory containing .log files should remain intact.
